@@ -9,7 +9,7 @@ O **EXP-Notifies** é um Expert Advisor (EA) desenvolvido para a plataforma Meta
 - O EA monitora três médias móveis configuráveis (rápida, média e lenta).
 - Emite notificações quando o preço toca qualquer uma dessas médias móveis no fechamento do candle.
 
-### 2. Padrões de Reversão (V-Shape)
+### 2. Notificações de Padrões de Reversão (V-Shape)
 - Detecta padrões de reversão em formato de "V" para os seguintes indicadores:
   - Momentum
   - OBV (On-Balance Volume)
@@ -17,17 +17,13 @@ O **EXP-Notifies** é um Expert Advisor (EA) desenvolvido para a plataforma Meta
   - Estocástico
 - Os padrões de reversão são tolerantes a pequenas imperfeições no fundo ou topo.
 
-### 3. Indicadores Técnicos
+### 3. Notificações de Sobrecompra e Sobrevenda
 - **RSI**:
   - Notifica quando o RSI sai das regiões de sobrecompra ou sobrevenda.
-  - Detecta padrões de reversão (V-Shape).
 - **Estocástico**:
   - Notifica quando o Estocástico sai das regiões de sobrecompra ou sobrevenda.
-  - Detecta padrões de reversão (V-Shape).
-- **Momentum**:
-  - Detecta padrões de reversão (V-Shape).
-- **OBV**:
-  - Detecta padrões de reversão (V-Shape).
+
+### 4. Notificações de Agressão de Volume
 - **Volume**:
   - Monitora agressões de volume em um timeframe dedicado e notifica quando o volume ultrapassa a média configurada.
 
