@@ -57,8 +57,8 @@ input NOTIFY ena_rsi_notify = YES; // enable RSI notifications for crossing over
 
 sinput string s4; //-----------Stochastic Parameters-------------
 input int stoch_K = 20;
-input int stoch_D = 5;
-input int stoch_Slow = 5;
+input int stoch_D = 4;
+input int stoch_Slow = 4;
 input ENUM_MA_METHOD stoch_method = MODE_SMA;
 input ENUM_STO_PRICE stoch_price = STO_CLOSECLOSE;
 input int stoch_overbought = 80;
