@@ -5,7 +5,7 @@
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2023, EXP Automação STI LTDA."
 #property link "https://www.expautomacao.com.br"
-#property version "4.00"
+#property version "1.04"
 #property description "This Expert Advisor was developed to issue notifications when:"
 #property description "- Price touches any of the 3 configured moving averages or when there is volume aggression;"
 #property description "- Momentum forms a reversal pattern (V-Shape);"
